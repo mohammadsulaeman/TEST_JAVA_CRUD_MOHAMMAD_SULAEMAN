@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Movie Collection</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+</head>
+
+<body>
+<div class="container">
+    <h1>Movie Collection Update</h1>
+    <form action="#" th:action="@{/updateMovie}" th:object="${movie}" method="POST">
+        <h5 class="text-warning">Data tidak boleh kosong atau null. Silakan Di isi terlebih dahulu sebelum di simpan</h5>
+        <div class="btn-group" role="group" aria-label="Basic outlined example">
+            <button type="submit" class="btn btn-outline-primary btn-sm" style="margin-left: 800px;">Save</button>
+        </div>
+
+        <!-- Add hidden form field to handle update -->
+        <input type="hidden" th:field="*{id}" />
+
+        <div class="form-floating mb-3 mt-3">
+            <input type="text" class="form-control" id="title"  name="title" placeholder="Title" th:field="*{title}">
+            <label for="title">Title</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="director" name="director" placeholder="Director" th:field="*{director}">
+            <label for="director">Director</label>
+        </div>
+        <div class="form-floating mb-3">
+            <textarea class="form-control" placeholder="Summary" id="summary" name="summary" style="height: 100px" maxlength="100" th:field="*{summary}"></textarea>
+            <label for="summary">Summary</label>
+        </div>
+        <div class="form-floating">
+            <select class="form-select" id="genres" name="genres" aria-label="Floating label disabled select example" style="width: 70%; height: 100px;" th:field="*{genres}"  multiple th:selected="*{genres}">
+                <option value="Drama">Drama</option>
+                <option value="Action">Action</option>
+                <option value="Animation">Animation</option>
+                <option value="Sci-Fi">Sci-Fi</option>
+                <option value="Horror">Horor</option>
+            </select>
+            <label for="genres">Genres</label>
+        </div>
+        <div class="form-floating mt-3" th:each="m : ${movie}">
+            <p>Genres Sebelumnya</p><span th:text="${m.genres}"></span>
+        </div>
+    </form>
+
+    <hr>
+
+    <a th:href="@{/}"> Back to List</a>
+</div>
+</body>
+</html>
