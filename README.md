@@ -45,6 +45,6 @@ Berikut ini adalah tampilan dari CRUD Yang telah Saya Kerjakan untuk proses Test
 
 # Jika Data Tidak Berhasil Di Simpan dan Di Update
  - Tampilan Saat tidak berhasil di simpan
-   ![Screenshot 2023-09-08 165958](https://github.com/mohammadsulaeman/TEST_JAVA_CRUD_MOHAMMAD_SULAEMAN/assets/68136244/310f96df-cdb5-43f6-b19f-da6cc2545d70)
+   ![Screenshot 2023-09-09 064932](https://github.com/mohammadsulaeman/TEST_JAVA_CRUD_MOHAMMAD_SULAEMAN/assets/68136244/fad24cc7-954c-462e-8996-992693a01dd5)
  - Tampilan Saat tidak berhasil di update
-   ![Screenshot 2023-09-08 170424](https://github.com/mohammadsulaeman/TEST_JAVA_CRUD_MOHAMMAD_SULAEMAN/assets/68136244/79c8c2fe-7288-47bb-97a3-938ad0b00c52)
+   ![Screenshot 2023-09-09 065042](https://github.com/mohammadsulaeman/TEST_JAVA_CRUD_MOHAMMAD_SULAEMAN/assets/68136244/a386ed0f-74b3-4633-85e8-b7e7b5c83465)
