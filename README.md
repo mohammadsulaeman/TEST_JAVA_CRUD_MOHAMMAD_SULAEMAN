@@ -43,8 +43,8 @@ Berikut ini adalah tampilan dari CRUD Yang telah Saya Kerjakan untuk proses Test
   ![data_delete](https://github.com/mohammadsulaeman/TEST_JAVA_CRUD_MOHAMMAD_SULAEMAN/assets/68136244/29017c95-a69f-4390-ac3f-c71a520e9e9c)
 
 
-# Error Yang Terjadi jika data update dan simpan ada yang kosong atau null
- - Tampilan Error Saat Simpan Data
-![error_data](https://github.com/mohammadsulaeman/TEST_JAVA_CRUD_MOHAMMAD_SULAEMAN/assets/68136244/fadff55c-a1a3-461a-bae1-7a7349acfb22)
- - Tampilan Error Saat Update Data
-![Screenshot 2023-09-08 092017](https://github.com/mohammadsulaeman/TEST_JAVA_CRUD_MOHAMMAD_SULAEMAN/assets/68136244/3ae39fba-b51a-4493-8a35-1213ef1a728b)
+# Jika Data Tidak Berhasil Di Simpan dan Di Update
+ - Tampilan Saat tidak berhasil di simpan
+   ![Screenshot 2023-09-08 165958](https://github.com/mohammadsulaeman/TEST_JAVA_CRUD_MOHAMMAD_SULAEMAN/assets/68136244/310f96df-cdb5-43f6-b19f-da6cc2545d70)
+ - Tampilan Saat tidak berhasil di update
+   ![Screenshot 2023-09-08 170424](https://github.com/mohammadsulaeman/TEST_JAVA_CRUD_MOHAMMAD_SULAEMAN/assets/68136244/79c8c2fe-7288-47bb-97a3-938ad0b00c52)
