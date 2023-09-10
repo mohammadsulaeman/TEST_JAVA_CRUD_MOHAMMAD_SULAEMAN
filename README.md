@@ -6,7 +6,7 @@ Berikut ini adalah tampilan dari CRUD Yang telah Saya Kerjakan untuk proses Test
 
 # Simpan Movie
     Method : POST
-    Endpoint : http://localhost:8080/showMovieCollectionForm
+    Endpoint : http://localhost:8080/saveMovie
     Informasi : untuk summary di sini di batasin maksimal panjang 100
   Tampilan
   ![simpan_data](https://github.com/mohammadsulaeman/TEST_JAVA_CRUD_MOHAMMAD_SULAEMAN/assets/68136244/042d79c0-33cc-49ec-b581-46f3bc2ac53e)
@@ -19,7 +19,7 @@ Berikut ini adalah tampilan dari CRUD Yang telah Saya Kerjakan untuk proses Test
 
 # Update Movie
     Method : POST
-    Endpoint : http://localhost:8080/showFormUpdateMovie/{id}
+    Endpoint : http://localhost:8080/updateMovie
     Informasi : untuk summary di sini di batasin maksimal panjang 100
   Tampilan
   ![update_data](https://github.com/mohammadsulaeman/TEST_JAVA_CRUD_MOHAMMAD_SULAEMAN/assets/68136244/0b70cb19-a835-4264-b661-f104ab0cfe12)
